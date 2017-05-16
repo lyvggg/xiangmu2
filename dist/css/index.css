@@ -1,0 +1,63 @@
+/*最外层盒子*/
+.gwl_layout {
+  min-width: 300px;
+  max-width: 640px;
+  margin: 0 auto;
+  position: relative;
+}
+/*顶部*/
+.gwl_dingbu {
+  height: 60px;
+  width: 100%;
+  background-color: #ff641e;
+}
+.gwl_dingbu .gwl_bt {
+  float: left;
+  position: absolute;
+  top: -9px;
+  left: -10px;
+}
+.gwl_dingbu .gwl_weizhi {
+  float: left;
+  position: absolute;
+  top: 11px;
+  left: 140px;
+}
+.gwl_dingbu .gwl_weizhi a {
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+}
+.gwl_dingbu .gwl_weizhi img {
+  position: absolute;
+  top: -8px;
+  left: 34px;
+}
+.gwl_dingbu .gwl_caidan {
+  float: right;
+  position: absolute;
+  top: 4px;
+  right: 10px;
+}
+.gwl_dingbu .gwl_caidan .dropdown_content {
+  height: 80px;
+  width: 100px;
+  background-color: #ff641e;
+  display: none;
+  position: absolute;
+  top: 56px;
+  right: -10px;
+  text-align: center;
+  list-style-type: none;
+}
+.gwl_dingbu .gwl_caidan .dropdown_content a {
+  text-decoration: none;
+  color: white;
+}
+.gwl_dingbu .gwl_caidan .dropdown_content img {
+  height: 16px;
+  width: 16px;
+}
+.gwl_dingbu .gwl_caidan .dropdown_content li {
+  margin: 10px;
+}
