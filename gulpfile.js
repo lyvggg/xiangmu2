@@ -3,7 +3,7 @@ var less=require("less");
 var $=require('gulp-load-plugins')();
 // var cleancss=require("gulp-clean-css");
 // var concat=require("gulp-concat");
-//less文件编译成css文件并压缩
+
 gulp.task('less',function () {
     return gulp.src('app/styles/*.less')
         .pipe($.less())
@@ -14,4 +14,3 @@ gulp.task('less',function () {
 gulp.task("dist",function () {
     gulp.watch("app/styles/*.less",['less']);//编译和压缩CSS文件
 });
-
