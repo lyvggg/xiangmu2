@@ -1,0 +1,65 @@
+body {
+  width: 100%;
+  height: 100%;
+}
+.gwl_layout {
+  min-width: 300px;
+  max-width: 640px;
+  margin: 0 auto;
+  position: relative;
+}
+.gwl_layout #topbar {
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  background-color: #ff6b28;
+}
+.gwl_layout #topbar div {
+  height: 100%;
+  float: left;
+}
+.gwl_layout #topbar div a img {
+  height: 30px;
+  margin-top: 5px;
+}
+.gwl_layout #topbar p {
+  width: 75%;
+  float: left;
+  color: white;
+  text-align: center;
+  margin: 10px;
+}
+.gwl_layout #topbar #topbarright {
+  float: right;
+  height: 100%;
+  margin: 10px 10px 0 0;
+}
+.gwl_layout #topbar #topbarright span {
+  color: white;
+}
+.gwl_layout #middle {
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+}
+.gwl_layout #middle #xinxi {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid darkgray;
+  margin-left: 10px;
+}
+.gwl_layout #middle #xinxi p {
+  margin: 10px 0 0 10px;
+}
+.gwl_layout #middle #xinxi p span {
+  color: red;
+}
+.gwl_layout #middle #xinxi h6 {
+  margin: 10px 0 0 10px;
+}
+.gwl_layout #middle #xinxi .h6 {
+  margin: 10px 0 20px 10px;
+}
+.gwl_layout #middle #xinxi .h6 span {
+  color: dodgerblue;
+}
