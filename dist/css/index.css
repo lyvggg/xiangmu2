@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /*最外层盒子*/
 .gwl_layout {
   min-width: 300px;
@@ -61,14 +60,4 @@
 }
 .gwl_dingbu .gwl_caidan .dropdown_content li {
   margin: 10px;
-=======
-body {
-  width: 100%;
-  height: 100%;
-}
-#topbar {
-  background-color: rgba(255, 107, 38, 0.74);
-  width: 100%;
-  height: 30px;
->>>>>>> 3fe56690dd8e3ae247af200e7903d22c79708ae3
 }
