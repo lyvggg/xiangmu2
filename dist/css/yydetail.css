@@ -59,6 +59,7 @@ body {
   width: 100%;
   height: 100%;
   padding-top: 40px;
+  overflow: hidden;
 }
 .gwl_layout #middle #xinxi {
   width: 100%;
@@ -183,7 +184,39 @@ body {
   text-align: center;
   margin-top: 5%;
   width: 90%;
-  border: 1px solid grey;
+  border: 1px solid  lightgrey;
   border-radius: 4px;
   padding: 2% 0;
+}
+.gwl_layout ul {
+  width: 100%;
+  position: absolute;
+  margin-top: 30px;
+  list-style: none;
+  border-top: 1px solid gainsboro;
+  padding-left: 0px;
+}
+.gwl_layout ul li {
+  margin-top: 10px;
+  width: 25%;
+  text-align: center;
+  float: left;
+}
+.gwl_layout ul li a {
+  color: black;
+}
+.gwl_layout ul .liborder {
+  border-left: 1px solid lightgrey;
+}
+.gwl_layout .gotop {
+  width: auto;
+  height: auto;
+  background-color: #898989;
+  display: none;
+}
+.gwl_layout .gotopfixed {
+  position: fixed;
+  bottom: 50px;
+  right: 10px;
+  display: block;
 }
