@@ -5,3 +5,36 @@
   margin: 0 auto;
   position: relative;
 }
+/*热门城市*/
+.remencity {
+  height: 300px;
+  width: 100%;
+}
+.remencity .toubu {
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 22px;
+  height: 50px;
+  width: 100%;
+  background-color: #eeeeee;
+}
+.remencity .shenti {
+  height: 100px;
+  width: 100%;
+}
+.remencity .shenti table {
+  height: 100px;
+  width: 100%;
+}
+.remencity .shenti table .shang,
+.remencity .shenti table .xia {
+  height: 100px;
+  width: 100%;
+}
+.remencity .shenti table .shang td,
+.remencity .shenti table .xia td {
+  height: 50px;
+  width: 25%;
+  background-color: #fcf8f7;
+  text-align: center;
+}
