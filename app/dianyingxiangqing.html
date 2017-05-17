@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
+		<title>电影详情</title>
+		<script src="../bower_components/jquery/dist/jquery.js"></script>
+
+		<script type="text/javascript" src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+		<link type="text/css" rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link type="text/css" rel="stylesheet" href="../dist/css/dianyingxiangqing.css" />
+	</head>
+
+	<body>
+		<div class="banxin">
+			<div class="container" style="height: 70px;overflow: hidden;width: 100%;background: white; ">
+				<div class="col-xs-8" style="100%"><img src="img/格瓦拉生活打开APP.png" /></div>
+				<div class="col-xs-4">
+					<input type="button" class="btn btn-default" value="打开APP" style="position: absolute;right: -2px;top: 20px;">
+				</div>
+			</div>
+			<div class="xiangqing">
+				<img src="img/timg (5).jpg" style="width: 100%;position:absolute;height: 479px;" />
+				<div class="gwl_dingbu">
+					<div class="jiantou">
+						<img src="img/左箭头.png" />
+					</div>
+					<div class="bofang col-xs-offset-5">
+						<img src="img/播放.png" />
+					</div>
+					<div class="gwl_caidan">
+						<div class="dropdown" id="dropdown">
+							<ul>
+								<a href="#" class="dropbtn"><img src="img/列表.png" class="caidan"></a>
+							</ul>
+							<div class="dropdown_content" id="dropdown_content">
+								<li>
+									<a href="#"><img src="img/Home.png">首页</a>
+								</li>
+								<li>
+									<a href="#"><img src="img/zhanghu.png">个人中心</a>
+								</li>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="xiangqing2">
+				<div class="xiangqing2_left col-xs-5">
+					<img src="img/timg (1).jpg" style="width: 100%; margin: 0 auto;height: 180px; border:2px solid white;border-radius: 10px;" />
+				</div>
+				<div class="xiangqing_right col-xs-7">
+					<div>
+						<p>
+							<img src="img/星星.png" />
+							<img src="img/星星.png" />
+							<img src="img/星星.png" />
+							<img src="img/星星.png" />
+							<img src="img/星星.png" /> &nbsp; &nbsp;<span style="color: white; font-size: 17px;">9.6</span>
+						</p>
+						<p>
+							<span style="font-size: 21px;color: white;">摔跤吧！爸爸</span>
+						</p>
+						<p>wwww.hellokitty.com</p>
+					</div>
+					<div style="background: white;margin-top: 20px;">
+						<div class="pull-left col-xs-10 " style="color: black;">
+							<p>导演：方友镜</p>
+							<p>主演：Fangyoujing</p>
+						</div>
+						<div class="col-xs-2 pull-right">
+							<img src="img/箭头右.png" />
+						</div>
+					</div>
+
+				</div>
+			</div>
+			<hr />
+
+			<!--底部-->
+			<div class="dibuguding navbar-fixed-bottom">
+				<div class="col-xs-7 dibuguding_1">
+					<img src="img/心.png" style="width: 40px;height: 45px;" />14K
+					<img src="img/评论.png" style="margin-left: 10%; width: 40px;height: 45px;" />写哇啦
+				</div>
+				<div class="col-xs-5 dibuguding_2">
+					<button class="btn btn-danger btn-lg">选座购票</button>
+
+				</div>
+			</div>
+		</div>
+		<script>
+			$(function() {
+				$("#dropdown").click(function() {
+					$("#dropdown_content").toggle();
+				})
+			});
+		</script>
+	</body>
+
+</html>
