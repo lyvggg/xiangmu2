@@ -71,7 +71,7 @@
   float: left;
   background-color: #f0eff7;
   text-align: center;
-  border-bottom: 3px solid #ff641e;
+  border-bottom: 3px solid #b4b4b4;
   line-height: 50px;
 }
 .gwl_dyyy .dianying a {
@@ -85,7 +85,7 @@
   float: left;
   background-color: #f0eff7;
   text-align: center;
-  border-bottom: 3px solid #b4b4b4;
+  border-bottom: 3px solid #ff641e;
   line-height: 50px;
 }
 .gwl_dyyy .yingyuan a {
@@ -93,47 +93,63 @@
   text-decoration: none;
   color: #9f9f9f;
 }
-.zzsp p {
-  font-size: 18px;
-  color: #bbbbbb;
-  margin-left: 15px;
-  margin-top: 15px;
+.gwl_yymz {
+  height: 150px;
+  width: 90%;
+  border-bottom: 1px solid #ededed;
 }
-.dyll {
-  margin: 15px;
-  height: 170px;
+.gwl_yymz div {
+  margin: 10px;
+}
+.gwl_yymz .yymz {
+  height: 50px;
   width: 100%;
-  border-bottom: 1px solid #eeeeee;
 }
-.dyll .dytp {
-  float: left;
-}
-.dyll .dygl {
-  margin-left: 5px;
-  float: left;
-  width: 64%;
-}
-.dyll .dygl .bt {
-  text-align: left;
+.gwl_yymz .yymz .bt {
   font-weight: bold;
+  font-size: 22px;
+}
+.gwl_yymz .yymz .zdp {
+  color: white;
+  background-color: #f0c83c;
+}
+.gwl_yymz .yymz .pf1 {
+  color: #e67149;
+  font-size: 19px;
+  position: absolute;
+  top: 125px;
+  right: 10px;
+}
+.gwl_yymz .yymz .pf2 {
+  color: #e67149;
+  font-size: 19px;
+  position: absolute;
+  top: 285px;
+  right: 10px;
+}
+.gwl_yymz .yymz .pf3 {
+  color: #e67149;
+  font-size: 19px;
+  position: absolute;
+  top: 445px;
+  right: 10px;
+}
+.gwl_yymz .yymz .pf4 {
+  color: #e67149;
+  font-size: 19px;
+  position: absolute;
+  top: 605px;
+  right: 10px;
+}
+.gwl_yymz .yydz {
+  height: 50px;
+  width: 100%;
   font-size: 20px;
+  color: #676767;
 }
-.dyll .dygl .bt a {
-  text-decoration: none;
-}
-.dyll .dygl .pf {
-  margin-left: 28%;
-  font-size: 20px;
-}
-.dyll .dygl .jj {
-  line-height: 90px;
-  font-weight: bold;
-  color: #abb7b8;
-  font-size: 15px;
-}
-.dyll .dygl .rs {
-  font-weight: bold;
-}
-.dyll .dygl .rs span {
-  color: #ff641e;
+.gwl_yymz .fycc {
+  height: 50px;
+  width: 100%;
+  font-size: 16px;
+  color: #a2a2a2;
 }
