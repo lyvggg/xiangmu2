@@ -1,0 +1,109 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(243, 243, 243, 0.87);
+}
+
+.gwl_layout {
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  position: relative;
+  #topbar {
+    //position: absolute;
+    width: 100%;
+    height: 40px;
+    background-color: #ff6b28;
+    div {
+      height: 100%;
+      float: left;
+      a img {
+        height: 30px;
+        margin-top: 5px;
+      }
+    }
+    b {
+      width: 68%;
+      float: left;
+      color: white;
+      text-align: center;
+      margin: 10px;
+    }
+    #topright {
+      float: right;
+      color: white;
+      margin-top: 8px;
+      text-decoration: none;
+      img {
+        width: 30px;
+        height: 30px;
+        margin-left: -10px;
+        margin-top: -2px;
+      }
+    }
+  }
+  #middle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    //padding-top: 40px;
+    #middletop {
+      width: 100%;
+      height: 100%;
+      ul {
+        width: 100%;
+        height: 100%;
+        padding-left: 0px;
+        list-style: none;
+        border-bottom: 1px solid lightgrey;
+        li {
+          width: 33.3%;
+          color: grey;
+          padding: 5px 0px;
+          float: left;
+          text-align: center;
+          margin-top: 5px;
+        }
+        .liborder {
+          border-left: 1px solid lightgrey;
+        }
+      }
+    }
+    #chooseyy{
+      width: 100%;
+      height: 100%;
+      ul{
+        padding-left: 0px;
+        width: 100%;
+        height: 100%;
+        li{
+          position: relative;
+          width: 100%;
+          list-style: none;
+          padding-left: 4%;
+          padding-top: 20px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid lightgrey;
+          p{
+            font-size: 16px;
+          }
+          h6{
+            color: grey;
+            width: 100%;
+            span{
+              font-size: 15px;
+              float: right;
+              margin-right: 5px;
+            }
+          }
+          b{
+            position: absolute;
+            right: 10px;
+            top: 20px;
+            color: red;
+          }
+        }
+      }
+    }
+  }
+}
