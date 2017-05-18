@@ -91,3 +91,10 @@ body {
   height: 50px;
   overflow: hidden;
 }
+/*回到顶部*/
+.huidao1{
+	width: 50px;
+	position: fixed;
+	border:1px solid black;
+	top: 500px;
+}
