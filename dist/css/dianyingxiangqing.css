@@ -1,27 +1,79 @@
 body {
-
 	background: white;
 	height: 3000px;
+}
 
-}
 .banxin {
-  min-width: 300px;
-  max-width: 640px;
-  margin: 0 auto;
-  position: relative;
-  font-family: "楷体";
-}
-.flex-container {
-  position: fixed;
-  height: 73px;
+	min-width: 300px;
+	max-width: 640px;
+	margin: 0 auto;
+	position: relative;
+	font-family: "楷体";
 }
 
 .xiangqing {
-  height: 1000px;
-  width: 100%;
-  overflow: hidden;
+	width: 100%;
+	position: relative;
+	height: 479px;
+	background: red;
 }
 
+
+/**/
+
+.gwl_dingbu {
+	height: 50px;
+	width: 100%;
+	position: relative;
+}
+
+.gwl_dingbu .gwl_bt {
+	float: left;
+	position: absolute;
+	top: -9px;
+	left: -10px;
+}
+
+.gwl_dingbu .gwl_caidan {
+	float: right;
+	position: absolute;
+	top: 4px;
+	right: 10px;
+	z-index: 200;
+}
+
+.gwl_dingbu .gwl_caidan .dropdown_content {
+	height: 80px;
+	width: 100px;
+	display: none;
+	position: absolute;
+	top: 56px;
+	right: -10px;
+	text-align: center;
+	list-style-type: none;
+}
+
+.gwl_dingbu .gwl_caidan .dropdown_content a {
+	text-decoration: none;
+	color: white;
+}
+
+.gwl_dingbu .gwl_caidan .dropdown_content img {
+	height: 16px;
+	width: 16;
+}
+
+.gwl_dingbu .gwl_caidan .dropdown_content li {
+	margin: 10px;
+}
+
+.jiantou img {
+	position: absolute;
+	top: 19%;
+	left: 2%;
+	border: 1px solid silver;
+	border-radius: 10px;
+}
 
 .caidan {
 	border: 1px solid silver;
@@ -226,4 +278,3 @@ body {
 	width: 100%;
 	height: 60px;
 }
-
