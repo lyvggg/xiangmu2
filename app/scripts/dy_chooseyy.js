@@ -7,7 +7,7 @@ $(function () {
     })
 });
 $(function () {
-    $("#dropdown2").click(function () {
+    $("#showarea").click(function () {
         $("#dropdownlist2").toggle();
     })
 });
