@@ -1,11 +1,8 @@
 body {
-<<<<<<< HEAD
-  background: #f5f5f5;
-  height: 1550px;
-=======
+
 	background: white;
 	height: 3000px;
->>>>>>> deddf24fa5fbddbde573ef694d9ce066bbd5a146
+
 }
 .banxin {
   min-width: 300px;
@@ -18,13 +15,13 @@ body {
   position: fixed;
   height: 73px;
 }
-<<<<<<< HEAD
+
 .xiangqing {
   height: 1000px;
   width: 100%;
   overflow: hidden;
 }
-=======
+
 
 .caidan {
 	border: 1px solid silver;
@@ -229,4 +226,4 @@ body {
 	width: 100%;
 	height: 60px;
 }
->>>>>>> deddf24fa5fbddbde573ef694d9ce066bbd5a146
+
