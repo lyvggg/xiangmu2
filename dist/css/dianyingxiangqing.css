@@ -1,0 +1,280 @@
+body {
+	background: white;
+	height: 3000px;
+}
+
+.banxin {
+	min-width: 300px;
+	max-width: 640px;
+	margin: 0 auto;
+	position: relative;
+	font-family: "楷体";
+}
+
+.xiangqing {
+	width: 100%;
+	position: relative;
+	height: 479px;
+	background: red;
+}
+
+
+/**/
+
+.gwl_dingbu {
+	height: 50px;
+	width: 100%;
+	position: relative;
+}
+
+.gwl_dingbu .gwl_bt {
+	float: left;
+	position: absolute;
+	top: -9px;
+	left: -10px;
+}
+
+.gwl_dingbu .gwl_caidan {
+	float: right;
+	position: absolute;
+	top: 4px;
+	right: 10px;
+	z-index: 200;
+}
+
+.gwl_dingbu .gwl_caidan .dropdown_content {
+	height: 80px;
+	width: 100px;
+	display: none;
+	position: absolute;
+	top: 56px;
+	right: -10px;
+	text-align: center;
+	list-style-type: none;
+}
+
+.gwl_dingbu .gwl_caidan .dropdown_content a {
+	text-decoration: none;
+	color: white;
+}
+
+.gwl_dingbu .gwl_caidan .dropdown_content img {
+	height: 16px;
+	width: 16;
+}
+
+.gwl_dingbu .gwl_caidan .dropdown_content li {
+	margin: 10px;
+}
+
+.jiantou img {
+	position: absolute;
+	top: 19%;
+	left: 2%;
+	border: 1px solid silver;
+	border-radius: 10px;
+}
+
+.caidan {
+	border: 1px solid silver;
+	border-radius: 10px;
+}
+
+.bofang img {
+	width: 50px;
+	height: 55px;
+	margin-top: 50%;
+	border-radius: 10px;
+}
+
+
+/**/
+
+.xiangqing2 {
+	width: 100%;
+	height: 130px;
+	background: white;
+	position: relative;
+}
+
+.xiangqing2_left {
+	width: 34%;
+	position: absolute;
+	top: -75%;
+	left: 4%;
+}
+
+.xiangqing_right {
+	width: 60%;
+	color: white;
+	font-size: 18px;
+	position: absolute;
+	top: -75%;
+	right: 0;
+}
+
+
+/*展开列表*/
+
+.zhankai {
+	width: 100%;
+}
+
+#panel,
+#flip {
+	padding: 5px;
+	text-align: center;
+	font-size: 20px;
+	border: solid 1px #c3c3c3;
+}
+
+#flip input {
+	width: 100%;
+}
+
+#panel {
+	padding: 2px;
+	display: none;
+}
+
+
+/*剧照*/
+
+.picMarquee-left {
+	width: 100%;
+	height: 250px;
+	overflow: hidden;
+	position: relative;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+}
+
+.picMarquee-left .bd {
+	padding: 10px;
+}
+
+.picMarquee-left .bd ul {
+	overflow: hidden;
+	zoom: 1;
+}
+
+.picMarquee-left .bd ul li {
+	margin: 0 8px;
+	float: left;
+	display: inline;
+	overflow: hidden;
+	text-align: center;
+}
+
+.picMarquee-left .bd ul li .pic img {
+	width: 280px;
+	height: 200px;
+	display: block;
+	padding: 2px;
+	border: 1px solid #ccc;
+}
+
+.picMarquee-left .bd ul li .pic a:hover img {
+	border-color: #999;
+}
+
+.picMarquee-left .bd ul li .title {
+	line-height: 24px;
+}
+
+
+/*评论*/
+
+.pinglun {
+	width: 100%;
+	height: 170px;
+	background: white;
+	font-size: 25px;
+	border-bottom: 1px solid #C0C0C0;
+}
+
+.pinglun_1 {
+	font-size: 25px;
+	color: #C0C0C0;
+	height: 30px;
+	width: 90%;
+	margin: 10px;
+	overflow: hidden;
+}
+
+.pinglun_2 {
+	font-size: 15px;
+	color: black;
+	height: 80px;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.pinglunxingxing {
+	width: 100%;
+	height: 40px;
+}
+
+.pinglunxingxing_left img {
+	height: 20px;
+	width: 15px;
+	margin: 0 auto;
+	cursor: pointer;
+}
+
+.pinglunxingxing_left span {
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.pinglunxingxing_right img {
+	height: 25px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.pinglunxingxing_right span {
+	font-size: 15px;
+	margin: 5px;
+	cursor: pointer;
+}
+
+.pinglun_ {
+	width: 100%;
+	height: 140px;
+	background: white;
+	font-size: 25px;
+	border-bottom: 1px solid #C0C0C0;
+}
+
+
+/*加载评论*/
+
+.dianji input {
+	width: 100%;
+}
+
+
+/*底部*/
+
+.dibuguding {
+	height: 60px;
+	overflow: hidden;
+	z-index: 999;
+	background: white;
+	min-width: 300px;
+	max-width: 640px;
+	margin: 0 auto;
+}
+
+.dibuguding_1 {
+	color: black;
+	font-size: 16px;
+	padding: 5px;
+	cursor: pointer;
+}
+
+.dibuguding_2 button {
+	width: 100%;
+	height: 60px;
+}
