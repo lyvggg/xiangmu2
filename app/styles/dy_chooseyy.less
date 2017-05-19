@@ -1,0 +1,176 @@
+body {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(243, 243, 243, 0.87);
+}
+
+.gwl_layout {
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  position: relative;
+  #topbar {
+    //position: absolute;
+    width: 100%;
+    height: 40px;
+    background-color: #ff6b28;
+    div {
+      height: 100%;
+      float: left;
+      a img {
+        height: 30px;
+        margin-top: 5px;
+      }
+    }
+    b {
+      width: 68%;
+      float: left;
+      color: white;
+      text-align: center;
+      margin: 10px;
+    }
+    #topright {
+      float: right;
+      color: white;
+      margin-top: 8px;
+      text-decoration: none;
+      img {
+        width: 30px;
+        height: 30px;
+        margin-left: -10px;
+        margin-top: -2px;
+      }
+    }
+  }
+  #middle {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    //padding-top: 40px;
+    #middletop {
+      width: 100%;
+      height: 100%;
+      ul {
+        width: 100%;
+        height: 100%;
+        padding-left: 0px;
+        list-style: none;
+        border-bottom: 1px solid lightgrey;
+        li {
+          width: 33.3%;
+          color: grey;
+          padding: 5px 0px;
+          float: left;
+          text-align: center;
+          margin-top: 5px;
+          position: relative;
+        }
+          #dropdown1{
+          #dropdownlist1{
+            width: 300%;
+            position: absolute;
+            display: none;
+            background-color: white;
+            z-index: 10;
+            top: 114%;
+            ul li{
+              text-align: left;
+              padding-left: 5%;
+              width: 100%;
+              border-bottom: 1px solid beige;
+            }
+          }
+          }
+        #dropdown2{
+          #dropdownlist2{
+            position: absolute;
+            width: 302%;
+            display: none;
+            background: gainsboro;
+            z-index: 10;
+            top: 120%;
+            right: -100%;
+            ul{
+              float: left;
+              width: 33.3%;
+              li{
+                border-bottom: 1px solid ghostwhite;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+                a{
+                  background-color: gainsboro;
+                  color: black;
+                  border: none;
+                  padding: 5px 0;
+                  border-radius: 0px;
+                }
+              }
+              li.active{
+                border-left: 3px solid #ff6b28;
+                a{
+                  color: red;
+                  background-color: white;
+                }
+              }
+            }
+            #tab-body{
+              float: left;
+              width: 66.6%;
+              background-color: white;
+              ul{
+                width: 100%;
+                li{
+                  width: 100%;
+                  margin: 0;
+                  padding: 5px 0;
+                  padding-left: 10%;
+                  text-align: left;
+                }
+              }
+            }
+          }
+        }
+        .liborder {
+          border-left: 1px solid lightgrey;
+        }
+      }
+    }
+    #chooseyy{
+      width: 100%;
+      height: 100%;
+      ul{
+        padding-left: 0px;
+        width: 100%;
+        height: 100%;
+        li{
+          position: relative;
+          width: 100%;
+          list-style: none;
+          padding-left: 4%;
+          padding-top: 20px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid lightgrey;
+          p{
+            font-size: 16px;
+          }
+          h6{
+            color: grey;
+            width: 100%;
+            span{
+              font-size: 15px;
+              float: right;
+              margin-right: 5px;
+            }
+          }
+          b{
+            position: absolute;
+            right: 10px;
+            top: 20px;
+            color: red;
+          }
+        }
+      }
+    }
+  }
+}
