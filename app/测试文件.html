@@ -22,6 +22,8 @@
 				body {
 	background: white;
 	height: 3000px;
+
+           
 }
 
 .banxin {
@@ -31,182 +33,57 @@
 	position: relative;
 	font-family: "楷体";
 }
-
-.xiangqing {
-	width: 100%;
-	position: absolute;
+.div1{
+	
+	height:380px;
+	width: 380px;
+	overflow: auto;
+	margin-left: 50px;
+}
+.div2{
+	background: sandybrown;
+	height: 600px;
+	width: 600px;
+}
+.div2 img{
+	background-repeat: repeat;
 	
 }
 
-
-/**/
-
-.gwl_dingbu {
-	height: 50px;
-	width: 100%;
-	position: relative;
-}
-
-.gwl_dingbu .gwl_bt {
-	float: left;
-	position: absolute;
-	top: -9px;
-	left: -10px;
-}
-
-.gwl_dingbu .gwl_caidan {
-	float: right;
-	position: absolute;
-	top: 4px;
-	right: 10px;
-	z-index: 200;
-}
-
-.gwl_dingbu .gwl_caidan .dropdown_content {
-	height: 80px;
-	width: 100px;
-	display: none;
-	position: absolute;
-	top: 56px;
-	right: -10px;
-	text-align: center;
-	list-style-type: none;
-}
-
-.gwl_dingbu .gwl_caidan .dropdown_content a {
-	text-decoration: none;
-	color: white;
-}
-
-.gwl_dingbu .gwl_caidan .dropdown_content img {
-	height: 16px;
-	width: 16;
-}
-
-.gwl_dingbu .gwl_caidan .dropdown_content li {
-	margin: 10px;
-}
-
-.jiantou img {
-	position: absolute;
-	top: 19%;
-	left: 2%;
-	border: 1px solid silver;
-	border-radius: 10px;
-}
-
-.caidan {
-	border: 1px solid silver;
-	border-radius: 10px;
-}
-
-.bofang img {
-	width: 50px;
-	height: 55px;
-	margin-top: 50%;
-	border-radius: 10px;
-}
+.div1::-webkit-scrollbar  
+{  
+    width: 16px;  
+    height: 16px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滚动条轨道 内阴影+圆角*/  
+.div1::-webkit-scrollbar-track  
+{  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);  
+    border-radius: 10px;  
+    background-color: #F5F5F5;  
+}  
+  
+/*定义滑块 内阴影+圆角*/  
+.div1::-webkit-scrollbar-thumb  
+{  
+    border-radius: 10px;  
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+    background-color: #555;  
+}  
+</style>
+<body>
+	<div class="div1">
+		<div class="div2">
+		<img src="img/座位.jpg"/>
+		
+			
+						
+		</div>
+	</div>
+</body>
 
 
-/**/
-
-.xiangqing2 {
-	width: 100%;
-	height: 100px;
-	margin-top: 80%;
-	background: white;
-	position: relative;
-}
-
-.xiangqing2_left {
-	width: 50%;
-	position: relative;
-	top: -75%;
-	left: 2%;
-}
-
-.xiangqing_right {
-	width: 40%;
-	color: white;
-	font-size: 12px;
-	position: absolute;
-	top: -84%;
-	right: 0;
-}
-.xingxing img{
-	width: 10px;
-	height: 10px;
-}
-
-
-			</style>
-		<div class="banxin">
-			<div class="container" style="height: 60px;overflow: hidden;width: 100%;background: #FF6B28; ">
-				<div class="col-xs-8" ><img src="img/biaoti.png" /></div>
-				<div class="col-xs-4">
-					<input type="button" class="btn btn-default" value="打开APP" style="position: absolute;right: -2px;top: 20px;background: #FF6B28;">
-				</div>
-			</div>
-			<div class="xiangqing">
-				<img src="img/timg (5).jpg" style="width: 100%;position:absolute;" />
-				<div class="gwl_dingbu">
-					<div class="jiantou">
-						<img src="img/左箭头.png" />
-					</div>
-					<div class="bofang col-xs-offset-5">
-						<img src="img/播放.png" />
-					</div>
-					<div class="gwl_caidan">
-						<div class="dropdown" id="dropdown">
-							<ul>
-								<a href="#" class="dropbtn"><img src="img/列表.png" class="caidan"></a>
-							</ul>
-							<div class="dropdown_content" id="dropdown_content">
-								<li>
-									<a href="#"><img src="img/Home.png">首页</a>
-								</li>
-								<li>
-									<a href="#"><img src="img/zhanghu.png">个人中心</a>
-								</li>
-							</div>
-						</div>
-					</div>
-				</div>
-
-			</div>
-			<div class="xiangqing2">
-				<div class="xiangqing2_left ">
-					<img src="img/timg (1).jpg" style="width: 100%; margin: 0 auto; border:2px solid white;border-radius: 10px;" />
-				</div>
-				<div class="xiangqing_right ">
-					<div>
-						<p class="xingxing">
-							<img src="img/星星.png" />
-							<img src="img/星星.png" />
-							<img src="img/星星.png" />
-							<img src="img/星星.png" />
-							<img src="img/星星.png" /> <span style="color: white; font-size: 14px;">9.6</span>
-						</p>
-						<p>
-							<span style="font-size: 18px;color: white;">摔跤吧！爸爸</span>
-						</p>
-						<p style="color: black;">Hellokitty.com</p>
-					</div>
-					<div style="background: white;margin-left:-12%;">
-						<div class="col-xs-12" style="color: black;">
-							
-							<p>导演：方友镜</p>
-							<p>主演：Fangyoujing</p>
-						</div>
-						<div class="col-xs-offset-10">
-							<img src="img/箭头右.png" style="margin-top: -320%;width: 15px;height: 12px;" />
-						</div>
-					</div>
-
-				</div>
-			</div>
-			<hr />
-
-		</body>
 
 </html>
