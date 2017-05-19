@@ -22,19 +22,14 @@
   height: 100px;
   width: 100%;
 }
-.remencity .shenti table {
-  height: 100px;
-  width: 100%;
-}
-.remencity .shenti table .shang,
-.remencity .shenti table .xia {
-  height: 100px;
-  width: 100%;
-}
-.remencity .shenti table .shang td,
-.remencity .shenti table .xia td {
+.remencity .shenti tr {
   height: 50px;
-  width: 25%;
-  background-color: #fcf8f7;
+  width: 100%;
+}
+.remencity .shenti tr td {
   text-align: center;
+}
+.remencity .shenti tr td a {
+  text-decoration: none;
+  color: black;
 }
