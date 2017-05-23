@@ -5,3 +5,34 @@
   margin: 0 auto;
   position: relative;
 }
+<<<<<<< HEAD
+=======
+/*热门城市*/
+.remencity {
+  height: 300px;
+  width: 100%;
+}
+.remencity .toubu {
+  line-height: 50px;
+  font-weight: bold;
+  font-size: 22px;
+  height: 50px;
+  width: 100%;
+  background-color: #eeeeee;
+}
+.remencity .shenti {
+  height: 100px;
+  width: 100%;
+}
+.remencity .shenti tr {
+  height: 50px;
+  width: 100%;
+}
+.remencity .shenti tr td {
+  text-align: center;
+}
+.remencity .shenti tr td a {
+  text-decoration: none;
+  color: black;
+}
+>>>>>>> ce6f0c8e1b223cd86bf29c3232867b7f3fea1cc9
